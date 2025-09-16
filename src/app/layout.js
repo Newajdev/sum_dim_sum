@@ -31,7 +31,9 @@ export default function RootLayout({ children }) {
       >
         {/* Navigation bar Start */}
         
-          <ContactInfobar />
+          <div className="hidden md:block">
+            <ContactInfobar />
+          </div>
           <Navbar />
         
         {/* Navigation bar End */}

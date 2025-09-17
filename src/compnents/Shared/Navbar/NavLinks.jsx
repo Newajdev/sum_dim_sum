@@ -1,10 +1,9 @@
 "use client"
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
 
 const NavLinks = () => {
-    const [visible, setVisible] = useState(true)
+    
     const location = usePathname()
     const NavLinks = [
         {

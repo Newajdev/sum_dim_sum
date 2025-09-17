@@ -11,7 +11,7 @@ const SumDim = () => {
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: "cover",
             }} >
-                <div className='bg-[#00000099] text-white py-[60px]'>
+                <div className='bg-[#00000099] backdrop-blur-md text-white py-[60px]'>
                     <Container>
                         <div className='text-center flex flex-col justify-center items-center '>
                             <h2 className={`${cinzel.className} w-[994px] text-5xl leading-[136%]`}>Dive Into the World of Sumptuous Sum Dim Sum</h2>

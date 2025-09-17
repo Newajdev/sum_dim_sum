@@ -1,3 +1,4 @@
+import Contact from '@/compnents/contact/Contact';
 import HeroSection from '@/compnents/hero/HeroSection';
 import OurStory from '@/compnents/ourstory/OurStory';
 import Reservation from '@/compnents/reservetion/Reservation';
@@ -25,6 +26,9 @@ const page = () => {
       
       {/* Reservation Section */}
       <Reservation/>
+
+      {/* Reservation Section */}
+      <Contact/>
     </>
   );
 };

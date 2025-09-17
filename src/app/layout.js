@@ -1,4 +1,4 @@
-import { Cinzel_Decorative, Raleway, Poppins } from "next/font/google";
+import { Cinzel_Decorative, Raleway, Poppins, Passions_Conflict } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/compnents/Shared/Navbar/Navbar";
 import ContactInfobar from "@/compnents/Shared/contactbar/ContactInfobar";
@@ -15,6 +15,10 @@ export const raleway = Raleway({
 export const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400","500","600","700"]
+})
+export const Passions = Passions_Conflict({
+  subsets: ["latin"],
+  weight: ["400"]
 })
 
 

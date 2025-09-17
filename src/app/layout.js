@@ -1,7 +1,8 @@
 import { Cinzel_Decorative, Raleway, Poppins } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/compnents/Shared/Navbar";
-import ContactInfobar from "@/compnents/Shared/ContactInfobar";
+import Navbar from "@/compnents/Shared/Navbar/Navbar";
+import ContactInfobar from "@/compnents/Shared/contactbar/ContactInfobar";
+import Footer from "@/compnents/Shared/footer/Footer";
 
 export const cinzel = Cinzel_Decorative({
   subsets: ["latin"],
@@ -31,13 +32,17 @@ export default function RootLayout({ children }) {
       >
         {/* Navigation bar Start */}
         
-          <div className="hidden md:block">
+          <div className="fixed top-0 w-full">
+            <div className="hidden md:block">
             <ContactInfobar />
           </div>
           <Navbar />
+          </div>
         
         {/* Navigation bar End */}
         {children}
+        
+        <Footer/>
       </body>
     </html>
   );

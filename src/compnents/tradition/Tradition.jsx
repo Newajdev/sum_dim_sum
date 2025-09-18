@@ -39,9 +39,9 @@ const Tradition = () => {
 
     return (
         <Container>
-            <div className="lg:px-0">
+            <div className="">
                 {/* title */}
-                <div className="w-screen flex flex-col justify-center items-center">
+                <div className="w-screen lg:w-full flex flex-col justify-center items-center">
                     <h2 className={`${cinzel.className} text-3xl lg:text-5xl`}>Taste the Tradition</h2>
                     <Image src={'/assets/tree02.png'} width={117} height={48} alt="Taste the Tradition" />
                 </div>

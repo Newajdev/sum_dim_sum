@@ -10,11 +10,11 @@ const HeroSection = () => {
       backgroundImage: "url('/assets/heroimg.png')",
       backgroundRepeat: 'no-repeat',
       backgroundSize: "cover",
-    }} className='h-screen flex justify-center items-center'>
+    }} className='py-40 lg:py-0  lg:h-screen flex justify-center items-center'>
       <Container>
         <div className='flex flex-col justify-center items-center'>
-          <h1 className={`${cinzel.className} text-white text-6xl text-center leading-[136%]`}>Welcome to Sum Dim Sum – Where Every Bite Tells a Story</h1>
-        <p className={`${raleway.className} font-normal w-[850px] text-base text-white text-center mt-5 mb-16`}>At Sum Dim Sum, we bring families and friends together over the timeless tradition of sharing delectable dishes. From our expertly crafted dim sum to our vibrant ambiance, every moment here is a celebration of taste and togetherness. Explore our menu, reserve your table, or order your favorites online today!</p>
+          <h1 className={`${cinzel.className} text-white text-2xl lg:text-6xl text-center leading-[136%]`}>Welcome to Sum Dim Sum – Where Every Bite Tells a Story</h1>
+        <p className={`${raleway.className} font-normal w-[400px] lg:w-[850px] text-base text-white text-center mt-5 mb-16`}>At Sum Dim Sum, we bring families and friends together over the timeless tradition of sharing delectable dishes. From our expertly crafted dim sum to our vibrant ambiance, every moment here is a celebration of taste and togetherness. Explore our menu, reserve your table, or order your favorites online today!</p>
 
         <PrimBtn Title={'Explore Our Menu'}/>
         </div>

@@ -13,7 +13,7 @@ const Contact = () => {
                     <div style={{
                         backgroundImage: "url('/assets/Contact.png')",
                         backgroundRepeat: 'no-repeat',
-                    }} className='w-[60%] '>
+                    }} className='w-full lg:w-[60%] '>
 
                         <div className={`${raleway.className} rounded-l-2xl text-white bg-black/40 py-[120px] backdrop-blur-md px-[60px] h-[746px] `}>
                             <h3 className='text-2xl font-semibold mb-2.5'>Just Say Hi !</h3>
@@ -25,7 +25,7 @@ const Contact = () => {
 
                     </div>
                     {/* Contact info side */}
-                    <div className='w-[40%] h-[746px] bg-[#F7E7E8] py-[229px] rounded-r-[20px] pl-[60px] relative text-[#0C0C0C]'>
+                    <div className='hidden lg:flex w-[40%] h-[746px] bg-[#F7E7E8] py-[229px] rounded-r-[20px] pl-[60px] relative text-[#0C0C0C]'>
                         <div className='absolute top-1/2 right-0  -translate-y-[50%] z-10'>
                             <Image className='w-[800px] h-[500px]' src={'/assets/fulltree.png'} width={500} height={500} alt='Contact us' />
                         </div>

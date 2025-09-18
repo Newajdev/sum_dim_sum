@@ -29,11 +29,11 @@ const Footer = () => {
     ]
     return (
         <Container>
-            <div className='flex justify-between items-center py-[60px] border-y-2 border-[#B31217]'>
-                <div>
+            <div className='flex flex-col justify-center md:flex-row gap-y-6 lg:flex-row lg:justify-between items-center py-[60px] border-y-2 border-[#B31217] lg:gap-y-0'>
+                <div className='flex flex-col justify-center'>
                     <h3 className={`${cinzel.className} text-2xl mb-5`}>Contact</h3>
 
-                    <div className='space-y-5 text-lg'>
+                    <div className='space-y-5 text-lg text-center'>
                         <p className='flex items-center gap-x-1'> <FaPhone />+1234567890</p>
                         <p className='flex items-center gap-x-1'><FaLocationDot /> Your Address Here</p>
                         <p className='flex items-center gap-x-1'> <MdEmail className='text-2xl' /> example@example.com</p>
@@ -47,7 +47,7 @@ const Footer = () => {
                     <SocialLinks />
                 </div>
                 <div>
-                    <ul className='space-y-5 text-right flex flex-col'>
+                    <ul className='space-y-5 text-center md:text-right lg:text-right flex flex-col justify-center'>
                         {
                             FootLinks.map(({ title, path }) =>
                                 <Link key={path} href={path}>

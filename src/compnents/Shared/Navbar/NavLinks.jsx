@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const NavLinks = () => {
-    
+
     const location = usePathname()
     const NavLinks = [
         {
@@ -36,7 +36,7 @@ const NavLinks = () => {
         },
     ]
     return (
-        <ul className='text-[#F8F8FF] flex gap-x-3 md:gap-x-5 lg:gap-x-8 xl:gap-x-10'>
+        <>
             {
                 NavLinks.map(({ title, path }) =>
                     <Link className={`${location == path && 'font-bold'}`} key={path} href={path}>
@@ -44,7 +44,7 @@ const NavLinks = () => {
                     </Link>
                 )
             }
-        </ul>
+        </>
     );
 };
 

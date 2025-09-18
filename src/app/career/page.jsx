@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AboutPage = () => {
+const Career = () => {
     return (
         <div style={{
                 backgroundImage: "url('/assets/SumdimSection.png')",
@@ -12,4 +12,4 @@ const AboutPage = () => {
     );
 };
 
-export default AboutPage;
+export default Career;

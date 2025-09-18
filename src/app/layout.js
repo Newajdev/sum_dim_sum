@@ -10,11 +10,11 @@ export const cinzel = Cinzel_Decorative({
 })
 export const raleway = Raleway({
   subsets: ["latin"],
-  weight: ["400","500","600","700"]
+  weight: ["400", "500", "600", "700"]
 })
 export const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["400","500","600","700"]
+  weight: ["400", "500", "600", "700"]
 })
 export const Passions = Passions_Conflict({
   subsets: ["latin"],
@@ -35,18 +35,18 @@ export default function RootLayout({ children }) {
         className={`antialiased`}
       >
         {/* Navigation bar Start */}
-        
-          <div className="fixed top-0 w-full">
-            <div className="hidden md:block">
+
+        <div className="fixed top-0 w-full z-50">
+          <div className="">
             <ContactInfobar />
           </div>
           <Navbar />
-          </div>
-        
+        </div>
+
         {/* Navigation bar End */}
         {children}
-        
-        <Footer/>
+
+        <Footer />
       </body>
     </html>
   );

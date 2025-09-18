@@ -8,7 +8,7 @@ import SocialLinks from './SocialLinks';
 const ContactInfobar = () => {
 
     return (
-            <div className={`${poppins.className} bg-[#0C0C0C] text-[#F8F8FF] py-2.5`}>
+            <div className={`${poppins.className} hidden lg:flex bg-[#0C0C0C] text-[#F8F8FF] py-2.5`}>
                 <Container>
                     <div className='flex justify-between items-center'>
                         {/* Contact info */}

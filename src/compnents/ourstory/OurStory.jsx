@@ -15,9 +15,9 @@ const OurStory = () => {
                         backgroundRepeat: 'no-repeat',
                         backgroundPosition: 'center',
 
-                    }} className='w-screen lg:w-[1069] bg-[#F7E7E8] py-[60px] lg:pl-[60px] rounded-[20px] flex flex-col justify-center items-center p-3'>
-                        <h3 className={`${cinzel.className} text-center text-3xl lg:text-5xl`}>Our Story</h3>
-                        <p className={`${raleway.className} mt-5 mb-10 w-full lg:w-[664px] text-center`}>At Sum Dim Sum, we are a local Singaporean brand that prepares dim sum dishes with wholehearted dedication and passion. Our chefs use traditional techniques to craft our dishes, ensuring that they are of the highest quality. Come and experience our fresh and flavorful cuisine.</p>
+                    }} className='w-screen lg:w-[1069px] bg-[#F7E7E8] py-[60px] lg:pl-[60px] rounded-[20px] flex flex-col justify-center items-center lg:justify-start lg:items-start p-3'>
+                        <h3 className={`${cinzel.className} text-center text-3xl lg:text-left lg:text-5xl`}>Our Story</h3>
+                        <p className={`${raleway.className} mt-5 mb-10 w-full lg:w-[664px] text-center lg:text-left`}>At Sum Dim Sum, we are a local Singaporean brand that prepares dim sum dishes with wholehearted dedication and passion. Our chefs use traditional techniques to craft our dishes, ensuring that they are of the highest quality. Come and experience our fresh and flavorful cuisine.</p>
                         <PrimBtn Title={'Learn More'} />
                     </div>
                     <div className='lg:absolute top-[60px] right-128'>
